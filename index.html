@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCQ APP</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="root">
+      <div class="container">
+        <!-- home start -->
+        <div class="home">
+          <img class="homeImage" src="./image/home.jpg" alt="quiz image" />
+          <div class="title">
+            <h1 class="home-title">quiz app with fixed time</h1>
+            <p class="home-pra">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio molestiae sapiente ipsam suscipit ipsum nobis laborum
+              culpa consequatur commodi? Autem porro ipsum id odit sunt minima
+              consequuntur ea magnam beatae.
+            </p>
+            <div class="button">
+              <button id="home-btn" class="start-btn">start quiz</button>
+            </div>
+          </div>
+        </div>
+        <!-- home end-->
+        <!-- quiz rule start -->
+        <div class="rule close">
+          <div class="rule-header">
+            <h1 class="rule-title">some rules of this quiz-title</h1>
+            <hr />
+          </div>
+          <div class="order-rule">
+            <ol>
+              <li>
+                You will have only <span>15 seconds </span> per each question.
+              </li>
+              <li>Once you select your answer, it can't be unedone.</li>
+              <li>You can't select any option once time goes off.</li>
+              <li>You can't exit from the quiz while you're playing.</li>
+              <li>You'll get points on the basis of your correct answers.</li>
+            </ol>
+          </div>
+          <div class="rule-button">
+            <button id="exist" class="start-btn">exist</button>
+            <button id="continus" class="start-btn">continue</button>
+          </div>
+        </div>
+        <!-- quiz rule end -->
+
+        <!-- quiz section start -->
+        <div class="quiz close">
+          <div class="quiz-header">
+            <div class="flex">
+              <p class="exam-page">start exam</p>
+              <p class="time-pra">time: <span class="time">12</span></p>
+            </div>
+            <div class="time-paginations">
+              <div class="time-full"></div>
+              <div class="time-full-red"></div>
+            </div>
+            <h1 class="quiz-title">1.What Does HTML?</h1>
+          </div>
+          <div class="quiz-question">
+            <div class="quistion"></div>
+            <div class="quistion"></div>
+            <div class="quistion"></div>
+            <div class="quistion"></div>
+            <!-- <div class="quistion">
+              <span> Hyper text preprocessor</span
+              ><i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="quistion">
+              <span> Hyper text preprocessor</span>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="quistion">
+              <span> Hyper text preprocessor</span
+              ><i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="quistion">
+              <span> Hyper text preprocessor</span
+              ><i class="fa-solid fa-check"></i>
+            </div> -->
+          </div>
+          <div class="quiz-button">
+            <p class="page">1 of 5 Questions</p>
+            <button id="next-quiz" class="start-btn">next quiz</button>
+          </div>
+        </div>
+        <!-- quiz section end -->
+        <!-- result  section start-->
+        <div class="result">
+          <img
+            class="result-image"
+            src="./image/6673.jpg"
+            alt="success Image"
+          />
+          <div class="result-text">
+            <h3>You Have Finished The Game</h3>
+            <h3 class="winer">Congratulation , You Got 2 Out Of 5</h3>
+          </div>
+          <div class="button">
+            <button id="" class="start-btn">exist</button>
+            <button id="" class="start-btn">continue</button>
+          </div>
+        </div>
+        <!-- result  section end-->
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
